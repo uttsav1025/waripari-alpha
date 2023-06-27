@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="waripari.css">
+    <script src="https://kit.fontawesome.com/23ec1d83f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    
+    <title>waripari</title>
+</head>
+
+<body>
+    <div id="home"></div>
+    <nav class="navbar">
+        <header class="first">Waripari</header>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href=#home class="nav-links">
+                    <i class="fas fa-home"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href=#favourites class="nav-links">
+                    <i class="fas fa-bookmark"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href=#settings class="nav-links">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href=#about class="nav-links">
+                    <i class="fa fa-info-circle"></i>
+                </a>
+            </li>
+
+        </ul>
+        
+        
+    </nav>
+
+    <div id="johncena"></div>
+    
+    
+    <section class="input">
+
+<!-- 
+        <div class="details">
+            <h1 class="current" id="user">
+                Your current location is
+            </h1>
+            <h1 class="destination" id="user">
+                Enter your Destination
+            </h1>
+            
+            <select name="desti" id="nation" required>
+                <option selected value="Select a location" selected disabled>Select a location</option>
+                
+                <option value="mahrj">Maharajgunj</option>
+                <option value="rtnp">Ratnpark</option>
+                <option value="blkmr">Balkmumari</option>
+            </select>
+        </div> -->
+
+
+        <div id="mapContainer"></div>
+        
+               
+    </section>
+</div>
+    <footer>
+    <section id="about">
+        <h2 class="last">You can find us on</h2>
+        <ul id="links">
+          <li class="link-list">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"class="profile-links"
+              ><i class="fab fa-instagram"></i></a>
+          </li>
+  
+          <li class="link-list">
+            <a href="https://github.com/uttsav1025" class="profile-links" target="_blank" rel="noopener noreferrer"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+
+          <li class="link-list">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="profile-links"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+    
+        </ul>
+        <p class="end">~Waripari~</p>
+      </section>
+    </footer>
+</body>
+
+<script src="waripari.js"></script>
+</html>

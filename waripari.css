@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    z-index: 9999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    padding: 2rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.first {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: #000;
+    font-weight: bolder;
+}
+
+.nav-links:hover {
+    color: #000;
+}
+
+.nav-links {
+    color:#9C9C9C;
+    padding: 2rem;
+}
+.fa,.fas{
+    font-size: 1.5rem;
+}
+/* .fas {
+    font-size: 1.5rem;
+} */
+
+.input {
+    background-color: beige;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    display: flex;
+    box-shadow: inset 0px -9px 15px -3px rgba(0,0,0,0.1);
+}
+
+.details {
+    background-color: white;
+    width: 50%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: inset 0px -9px 15px -3px rgba(0,0,0,0.1);
+}
+
+.current {
+    padding-bottom: 1rem;
+}
+.destination {
+    padding-top: 1rem;
+}
+
+#mapContainer {
+    width: 100%;
+    height: 600px;
+    padding: 5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#user {
+    font-size: 4.3rem;
+    color: dimgray;
+}
+
+#nation {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+}
+
+/* #johncena {
+    width: 100%;
+
+    height: 5.5rem;
+} */
+
+
+
+/* the contact parts */
+#about{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10rem;
+    padding: 0 2rem;
+    box-shadow: inset 0px -9px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+.last{
+    font-size: 2rem;
+    text-align: right;
+    color: #212529;
+}
+
+#links,.link-list, .profile-links,#profile-link{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color:#9C9C9C;
+}
+
+.fab{
+    font-size: xxx-large;
+    padding: 9px;
+    transition: 200ms cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
+.fab:hover{
+    color: #000;
+}
+
+.end{
+    color: #212529;
+    font-weight: 400
+}
+
+
